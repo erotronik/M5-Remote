@@ -2374,8 +2374,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "OSSM-M5-Remote_v1:ENCODER_LED_3_KIT"
-				(at 0 0 0)
+			(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+				(at -1.27 14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2392,7 +2392,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch  EC12PLRGBSDVBF-D: http://top-up.so-buy.com/front/bin/ptdetail.phtml?Part=EC12PLRGBSDVBF-D"
+			(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch."
 				(at 23.876 21.336 0)
 				(effects
 					(font
@@ -4270,6 +4270,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 196.85) (xy 109.22 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a144e8-b2e6-464e-97b8-f9bb8c9c16d5")
+	)
+	(wire
+		(pts
 			(xy 99.06 22.86) (xy 99.06 16.51)
 		)
 		(stroke
@@ -4457,6 +4467,16 @@
 			(type default)
 		)
 		(uuid "607c4f59-bf98-4ced-b44d-f1b931e3fd46")
+	)
+	(wire
+		(pts
+			(xy 109.22 198.12) (xy 111.76 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61009eea-ed75-46df-8f86-86ffaec9bc1c")
 	)
 	(wire
 		(pts
@@ -4707,16 +4727,6 @@
 			(type default)
 		)
 		(uuid "8d17c004-4094-4c39-b645-2fb07266d86c")
-	)
-	(wire
-		(pts
-			(xy 226.06 39.37) (xy 232.41 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "913f6672-6b35-4a28-876e-53bac56c4fd4")
 	)
 	(wire
 		(pts
@@ -5057,16 +5067,6 @@
 			(type default)
 		)
 		(uuid "cc99194f-51b7-4703-b9c1-651775fc99ae")
-	)
-	(wire
-		(pts
-			(xy 109.22 196.85) (xy 109.22 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccc81522-2efe-4215-a128-20f5d7ad720c")
 	)
 	(wire
 		(pts
@@ -5416,17 +5416,6 @@
 		)
 		(uuid "b5eaeb3b-6f61-45e3-92cc-0c901a54144f")
 	)
-	(label "RST"
-		(at 226.06 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b8b652e-de0c-4beb-aca2-0b4d8d89ccea")
-	)
 	(label "INTB"
 		(at 101.6 200.66 90)
 		(fields_autoplaced yes)
@@ -5569,17 +5558,6 @@
 			(justify left bottom)
 		)
 		(uuid "e05b8184-a9b4-4113-b316-c2088b959d5a")
-	)
-	(label "RST"
-		(at 109.22 200.66 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e539012e-f3bd-4593-9b7a-36dd3142324b")
 	)
 	(label "SCL"
 		(at 227.33 24.13 0)
@@ -6023,7 +6001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:ENCODER_LED_3_KIT"
+		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -6041,7 +6019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch  EC12PLRGBSDVBF-D: http://top-up.so-buy.com/front/bin/ptdetail.phtml?Part=EC12PLRGBSDVBF-D"
+		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch."
 			(at 77.216 78.994 0)
 			(effects
 				(font
@@ -6243,7 +6221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:ENCODER_LED_3_KIT"
+		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
 			(at 45.72 69.85 0)
 			(effects
 				(font
@@ -6261,7 +6239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch  EC12PLRGBSDVBF-D: http://top-up.so-buy.com/front/bin/ptdetail.phtml?Part=EC12PLRGBSDVBF-D"
+		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch."
 			(at 69.596 48.514 0)
 			(effects
 				(font
@@ -6395,7 +6373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:ENCODER_LED_3_KIT"
+		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
 			(at 132.08 99.06 0)
 			(effects
 				(font
@@ -6413,7 +6391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch  EC12PLRGBSDVBF-D: http://top-up.so-buy.com/front/bin/ptdetail.phtml?Part=EC12PLRGBSDVBF-D"
+		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch."
 			(at 108.204 77.724 0)
 			(effects
 				(font
@@ -7147,7 +7125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bea2190-766b-4a15-adcb-4987153c1299")
-		(property "Reference" "U$3"
+		(property "Reference" "U3"
 			(at 242.57 109.22 0)
 			(effects
 				(font
@@ -7165,7 +7143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "JST-PH-2.0MM_180DEGREES"
+		(property "Footprint" "OSSM-M5-Remote_v1:JST-PH-2.0MM_180DEGREES"
 			(at 242.57 109.22 0)
 			(effects
 				(font
@@ -7201,7 +7179,7 @@
 		(instances
 			(project "OSSM-M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
-					(reference "U$3")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8576,6 +8554,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 111.76 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9081243-5487-4f92-8d70-d77399d56546")
+		(property "Reference" "#PWR029"
+			(at 111.76 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 111.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 111.76 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f97d87a-9545-4843-a6bd-c0c407008747")
+		)
+		(instances
+			(project "OSSM-M5-Remote_v1"
+				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 57.15 45.72 0)
 		(unit 1)
@@ -8803,7 +8847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:ENCODER_LED_3_KIT"
+		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -8821,7 +8865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch  EC12PLRGBSDVBF-D: http://top-up.so-buy.com/front/bin/ptdetail.phtml?Part=EC12PLRGBSDVBF-D"
+		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch."
 			(at 115.824 47.244 0)
 			(effects
 				(font
@@ -9336,7 +9380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f73688c1-2978-4c80-931d-a35e4f457968")
-		(property "Reference" "M5-CORE0"
+		(property "Reference" "M5-CORE2"
 			(at 238.76 1.905 0)
 			(effects
 				(font
@@ -9355,7 +9399,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "M5_CORE2"
+		(property "Footprint" "OSSM-M5-Remote_v1:M5_CORE2"
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -9475,7 +9519,7 @@
 		(instances
 			(project "OSSM-M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
-					(reference "M5-CORE0")
+					(reference "M5-CORE2")
 					(unit 1)
 				)
 			)

@@ -24,8 +24,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:ENCODER_LED_3_KIT"
-			(at 0 0 0)
+		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+			(at -1.27 14.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +42,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch  EC12PLRGBSDVBF-D: http://top-up.so-buy.com/front/bin/ptdetail.phtml?Part=EC12PLRGBSDVBF-D"
+		(property "Description" "Illuminated Rotary Encoder w/ RGB LED and select switch."
 			(at 23.876 21.336 0)
 			(effects
 				(font

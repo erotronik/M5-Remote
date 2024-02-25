@@ -467,4 +467,15 @@
 		(thermal_bridge_angle 0)
 		(uuid "a9fb41a4-f47a-401e-b429-a4edce028b07")
 	)
+	(model "${KIPRJMOD}/3d/s10129381-X30001XLF.stp"
+		(offset
+			(xyz -1.3 -1.25 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 -90)
+		)
+	)
 )

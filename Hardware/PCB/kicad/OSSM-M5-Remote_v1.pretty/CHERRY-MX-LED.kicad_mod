@@ -17,7 +17,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -170,5 +170,16 @@
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "110515df-3843-42bf-9a65-bd457f009329")
+	)
+	(model "${KIPRJMOD}/3d/MX1A-F1NN.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
