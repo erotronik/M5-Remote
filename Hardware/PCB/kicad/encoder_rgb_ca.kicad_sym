@@ -22,6 +22,7 @@
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
@@ -33,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/pel12t.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -918,6 +919,44 @@
 					)
 				)
 				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ENCODER_RGB_CA_1_1"
+			(pin passive line
+				(at -8.89 -10.16 270)
+				(length 2.54)
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -10.16 270)
+				(length 2.54)
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)

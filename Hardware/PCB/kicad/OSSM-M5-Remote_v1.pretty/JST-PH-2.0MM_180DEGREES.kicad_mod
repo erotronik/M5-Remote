@@ -16,7 +16,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -103,7 +103,7 @@
 		(layer "F.SilkS")
 		(uuid "ba313a63-eff4-4e49-8347-11a620be2523")
 	)
-	(pad "P$1" thru_hole rect
+	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 1.308 1.308)
 		(drill 0.8)
@@ -113,7 +113,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "667ad0ac-b579-4046-b003-87648af21dca")
 	)
-	(pad "P$2" thru_hole rect
+	(pad "2" thru_hole rect
 		(at 2 0)
 		(size 1.308 1.308)
 		(drill 0.8)

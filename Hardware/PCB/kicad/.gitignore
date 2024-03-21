@@ -9,6 +9,7 @@ OSSM-M5-Remote_v1-backups
 *.kicad_prl
 *.sch-bak
 *~
+*.lck
 _autosave-*
 *.tmp
 *-save.pro

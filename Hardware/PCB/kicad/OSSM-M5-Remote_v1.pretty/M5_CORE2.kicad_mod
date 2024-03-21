@@ -68,6 +68,16 @@
 	)
 	(fp_line
 		(start -1.72 -1.23)
+		(end -1.72 3.77)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0ebd3c1-1d72-409e-a21f-70f0de489a70")
+	)
+	(fp_line
+		(start -1.72 -1.23)
 		(end 37.28 -1.23)
 		(stroke
 			(width 0.12)
@@ -108,26 +118,6 @@
 		(uuid "58787575-bd48-4176-bd02-da310dae972a")
 	)
 	(fp_line
-		(start -4.26 -1.23)
-		(end 37.28 -1.23)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "a8479be0-6cfa-42c9-b61e-2f61e1ec784b")
-	)
-	(fp_line
-		(start -4.26 3.77)
-		(end -4.26 -1.23)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "30598468-e47f-44dc-9ae3-feba6df50a74")
-	)
-	(fp_line
 		(start 37.28 -1.23)
 		(end 37.28 3.77)
 		(stroke
@@ -136,26 +126,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "d854539a-3b16-47d9-9026-252b053d9480")
-	)
-	(fp_line
-		(start 37.28 3.77)
-		(end -4.26 3.77)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "d85599db-ba5d-420b-a2bc-1b39526333f6")
-	)
-	(pad "0" thru_hole circle
-		(at -2.54 0)
-		(size 1.7051 1.7051)
-		(drill 1.1051)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.1016)
-		(thermal_bridge_angle 0)
-		(uuid "bc0c9285-7eba-4246-8581-46394d767a6f")
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
@@ -456,16 +426,6 @@
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "aa202dec-3b55-41eb-8cbb-9c07b7131760")
-	)
-	(pad "31" thru_hole circle
-		(at -2.54 2.54)
-		(size 1.7051 1.7051)
-		(drill 1.1051)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0.1016)
-		(thermal_bridge_angle 0)
-		(uuid "a9fb41a4-f47a-401e-b429-a4edce028b07")
 	)
 	(model "${KIPRJMOD}/3d/s10129381-X30001XLF.stp"
 		(offset
