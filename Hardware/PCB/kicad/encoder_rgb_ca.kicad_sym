@@ -929,16 +929,16 @@
 		)
 		(symbol "ENCODER_RGB_CA_1_1"
 			(pin passive line
-				(at -8.89 -10.16 270)
-				(length 2.54)
-				(name "MH1"
+				(at -8.89 -13.97 90)
+				(length 3.81)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "MH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -947,16 +947,16 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -10.16 270)
-				(length 2.54)
-				(name "MH2"
+				(at -5.08 -13.97 90)
+				(length 3.81)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "MH2"
 					(effects
 						(font
 							(size 1.27 1.27)
