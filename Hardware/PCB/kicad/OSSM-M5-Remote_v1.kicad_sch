@@ -4113,26 +4113,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 124.46) (xy 116.84 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "082ddf08-170b-4566-8ea2-695bc0cd1596")
-	)
-	(wire
-		(pts
-			(xy 121.92 127) (xy 121.92 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0845d617-5a99-42ad-b5df-9bffdcf1e959")
-	)
-	(wire
-		(pts
 			(xy 33.02 142.24) (xy 96.52 142.24)
 		)
 		(stroke
@@ -4290,6 +4270,16 @@
 			(type default)
 		)
 		(uuid "21b1d249-f92a-47e6-b4c5-5749eead02bc")
+	)
+	(wire
+		(pts
+			(xy 121.92 124.46) (xy 121.92 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222f25ae-2a95-4c59-b5c2-cdccf434e1fc")
 	)
 	(wire
 		(pts
@@ -4463,16 +4453,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 119.38 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e67cd01-f067-44b9-a221-f611c7f45ef4")
-	)
-	(wire
-		(pts
 			(xy 44.45 114.3) (xy 48.26 114.3)
 		)
 		(stroke
@@ -4540,16 +4520,6 @@
 			(type default)
 		)
 		(uuid "49a144e8-b2e6-464e-97b8-f9bb8c9c16d5")
-	)
-	(wire
-		(pts
-			(xy 119.38 129.54) (xy 162.56 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a8951da-6c28-4b48-ad14-b936f7237b56")
 	)
 	(wire
 		(pts
@@ -4633,13 +4603,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 124.46) (xy 116.84 161.29)
+			(xy 116.84 129.54) (xy 116.84 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50c5f806-8d0d-437e-a8bc-a7db4aac705a")
+		(uuid "50a039ab-eec1-4434-803f-09437a597320")
 	)
 	(wire
 		(pts
@@ -4753,16 +4723,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 127) (xy 121.92 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6152051e-9dfb-49a8-a782-6496e49b415f")
-	)
-	(wire
-		(pts
 			(xy 154.94 86.36) (xy 154.94 124.46)
 		)
 		(stroke
@@ -4820,6 +4780,16 @@
 			(type default)
 		)
 		(uuid "72598567-d1a9-4499-ab05-86d8370a9e07")
+	)
+	(wire
+		(pts
+			(xy 116.84 129.54) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e40670-f4e6-4351-859b-c455545d8e9a")
 	)
 	(wire
 		(pts
@@ -5193,6 +5163,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 127) (xy 119.38 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53f53e1-4cb0-445d-96b5-a1b463ea3195")
+	)
+	(wire
+		(pts
 			(xy 104.14 68.58) (xy 114.3 68.58)
 		)
 		(stroke
@@ -5230,6 +5210,16 @@
 			(type default)
 		)
 		(uuid "ba922c82-1bf8-4e74-bcda-0873453698dd")
+	)
+	(wire
+		(pts
+			(xy 119.38 127) (xy 160.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb779535-2b89-490d-9c16-177ac3f96398")
 	)
 	(wire
 		(pts
@@ -5593,6 +5583,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 124.46) (xy 121.92 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5fcf4ee-0eb1-46ac-8908-c1ad708c55e6")
+	)
+	(wire
+		(pts
 			(xy 68.58 100.33) (xy 71.12 100.33)
 		)
 		(stroke
@@ -5840,6 +5840,17 @@
 		)
 		(uuid "26241b2c-2a05-4c93-9f39-2933e8c2619b")
 	)
+	(label "SW3_BUTTON"
+		(at 121.92 161.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "265f5ff9-e642-475a-bb66-63ff0e114a08")
+	)
 	(label "SW3_ROTB"
 		(at 119.38 161.29 90)
 		(fields_autoplaced yes)
@@ -5849,7 +5860,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3ad1f6fa-826f-4a12-88a9-5cf86b90ea6b")
+		(uuid "42cd5cfc-472d-4224-993a-98ea279410d4")
 	)
 	(label "LED_SW4_B"
 		(at 102.87 104.14 0)
@@ -5949,17 +5960,6 @@
 			(justify left bottom)
 		)
 		(uuid "6e6b709a-fed7-4209-abfe-ea73cb0aa59f")
-	)
-	(label "SW3_BUTTON"
-		(at 116.84 161.29 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70a49b48-9757-4c0e-8e27-6b2dbaa109ef")
 	)
 	(label "LED_SW4_G"
 		(at 102.87 101.6 0)
@@ -6148,17 +6148,6 @@
 		)
 		(uuid "aa480dc0-708a-4ba6-862d-4f6a0c5e7fc4")
 	)
-	(label "SW3_ROTA"
-		(at 121.92 161.29 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad78df0f-2175-4a49-aa79-03fe20f4b5ab")
-	)
 	(label "LED_SW3_B"
 		(at 110.49 73.66 0)
 		(fields_autoplaced yes)
@@ -6324,6 +6313,17 @@
 		)
 		(uuid "f6f95579-fe95-4127-90e2-4f78ef97588b")
 	)
+	(label "SW3_ROTA"
+		(at 116.84 161.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff2860c3-f747-4f50-bd6d-e0c48cbd99b2")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 74.93 107.95 90)
@@ -6350,7 +6350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 74.93 109.728 90)
 			(effects
 				(font
@@ -6359,7 +6359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf"
 			(at 74.93 107.95 0)
 			(effects
 				(font
@@ -6377,7 +6377,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C23162"
+		(property "JLCPCB Part Number" "C17936"
 			(at 74.93 107.95 0)
 			(effects
 				(font
@@ -6779,7 +6779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 270.51 22.352 90)
 			(effects
 				(font
@@ -6788,7 +6788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf"
 			(at 270.51 24.13 0)
 			(effects
 				(font
@@ -6806,7 +6806,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C23162"
+		(property "JLCPCB Part Number" "C17936"
 			(at 270.51 24.13 0)
 			(effects
 				(font
@@ -6875,7 +6875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 110.49 103.378 90)
 			(effects
 				(font
@@ -6884,7 +6884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 110.49 101.6 0)
 			(effects
 				(font
@@ -6902,7 +6902,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 110.49 101.6 0)
 			(effects
 				(font
@@ -7036,7 +7036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 67.31 74.168 90)
 			(effects
 				(font
@@ -7045,7 +7045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 67.31 72.39 0)
 			(effects
 				(font
@@ -7063,7 +7063,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 67.31 72.39 0)
 			(effects
 				(font
@@ -7314,7 +7314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 110.49 100.838 90)
 			(effects
 				(font
@@ -7323,7 +7323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 110.49 99.06 0)
 			(effects
 				(font
@@ -7341,7 +7341,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 110.49 99.06 0)
 			(effects
 				(font
@@ -7909,7 +7909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 118.11 72.898 90)
 			(effects
 				(font
@@ -7918,7 +7918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -7936,7 +7936,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -8578,7 +8578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 105.41 108.458 90)
 			(effects
 				(font
@@ -8587,7 +8587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -8605,7 +8605,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C23162"
+		(property "JLCPCB Part Number" "C17936"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -8805,7 +8805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 219.202 17.78 90)
 			(effects
 				(font
@@ -8814,7 +8814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf"
 			(at 220.98 17.78 0)
 			(effects
 				(font
@@ -8832,7 +8832,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C23162"
+		(property "JLCPCB Part Number" "C17936"
 			(at 220.98 17.78 0)
 			(effects
 				(font
@@ -9129,7 +9129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 118.11 75.438 90)
 			(effects
 				(font
@@ -9138,7 +9138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 118.11 73.66 0)
 			(effects
 				(font
@@ -9156,7 +9156,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 118.11 73.66 0)
 			(effects
 				(font
@@ -9224,7 +9224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 67.31 71.628 90)
 			(effects
 				(font
@@ -9233,7 +9233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 67.31 69.85 0)
 			(effects
 				(font
@@ -9251,7 +9251,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 67.31 69.85 0)
 			(effects
 				(font
@@ -9715,7 +9715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 97.79 132.588 90)
 			(effects
 				(font
@@ -9724,7 +9724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 97.79 130.81 0)
 			(effects
 				(font
@@ -9742,7 +9742,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 97.79 130.81 0)
 			(effects
 				(font
@@ -9875,7 +9875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 110.49 105.918 90)
 			(effects
 				(font
@@ -9884,7 +9884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 110.49 104.14 0)
 			(effects
 				(font
@@ -9902,7 +9902,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 110.49 104.14 0)
 			(effects
 				(font
@@ -10147,7 +10147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 118.11 70.358 90)
 			(effects
 				(font
@@ -10156,7 +10156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -10174,7 +10174,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -10242,7 +10242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 74.93 102.108 90)
 			(effects
 				(font
@@ -10251,7 +10251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 74.93 100.33 0)
 			(effects
 				(font
@@ -10269,7 +10269,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 74.93 100.33 0)
 			(effects
 				(font
@@ -10506,7 +10506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 74.93 104.648 90)
 			(effects
 				(font
@@ -10515,7 +10515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 74.93 102.87 0)
 			(effects
 				(font
@@ -10533,7 +10533,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 74.93 102.87 0)
 			(effects
 				(font
@@ -11310,7 +11310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 67.31 76.708 90)
 			(effects
 				(font
@@ -11319,7 +11319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 67.31 74.93 0)
 			(effects
 				(font
@@ -11337,7 +11337,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 67.31 74.93 0)
 			(effects
 				(font
@@ -11603,7 +11603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 67.31 79.248 90)
 			(effects
 				(font
@@ -11612,7 +11612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -11630,7 +11630,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C23162"
+		(property "JLCPCB Part Number" "C17936"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -11895,7 +11895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 118.11 77.978 90)
 			(effects
 				(font
@@ -11904,7 +11904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F4701T5E_C17936.pdf"
 			(at 118.11 76.2 0)
 			(effects
 				(font
@@ -11922,7 +11922,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C23162"
+		(property "JLCPCB Part Number" "C17936"
 			(at 118.11 76.2 0)
 			(effects
 				(font
@@ -12171,7 +12171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 74.93 107.188 90)
 			(effects
 				(font
@@ -12180,7 +12180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
 			(at 74.93 105.41 0)
 			(effects
 				(font
@@ -12198,7 +12198,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C22787"
+		(property "JLCPCB Part Number" "C17909"
 			(at 74.93 105.41 0)
 			(effects
 				(font

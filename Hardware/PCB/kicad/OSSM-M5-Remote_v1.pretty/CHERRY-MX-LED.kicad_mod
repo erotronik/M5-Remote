@@ -104,12 +104,11 @@
 		(layer "F.SilkS")
 		(uuid "6c2214a9-28f0-4686-89e3-89c9fef002b4")
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at -5.08 0)
 		(size 1.9304 1.9304)
 		(drill 1.7144)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "475991cf-4262-45c4-9a17-89256550b49e")
@@ -121,12 +120,11 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "dc621b8d-3ae2-4865-8502-550cb905cd24")
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 5.08 0)
 		(size 1.9304 1.9304)
 		(drill 1.7144)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(solder_mask_margin 0.1016)
 		(thermal_bridge_angle 0)
 		(uuid "e9c3f012-4bbf-4dc8-95d6-6d7870036283")
