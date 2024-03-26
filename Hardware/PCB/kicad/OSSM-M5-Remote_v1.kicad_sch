@@ -1821,6 +1821,107 @@
 				)
 			)
 		)
+		(symbol "OSSM-M5-Remote_v1-eagle-import:JST-PH-2MM,180,reversepolarity"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at -3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+				(at -0.254 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST-PH-2MM,180,reversepolarity_1_0"
+				(pin passive inverted
+					(at 7.62 -3.81 180)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 7.62 -1.27 180)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "JST-PH-2MM,180,reversepolarity_1_1"
+				(rectangle
+					(start 0 1.27)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "OSSM-M5-Remote_v1-eagle-import:M5_CORE2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4363,6 +4464,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 111.76) (xy 266.7 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db59f7c-d8a3-467f-bfcc-ffaecd048fc4")
+	)
+	(wire
+		(pts
 			(xy 91.44 125.73) (xy 93.98 125.73)
 		)
 		(stroke
@@ -4393,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 110.49) (xy 101.6 130.81)
+			(xy 104.14 110.49) (xy 104.14 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4513,7 +4624,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 196.85) (xy 109.22 198.12)
+			(xy 109.22 196.85) (xy 109.22 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4583,7 +4694,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 110.49) (xy 101.6 110.49)
+			(xy 91.44 110.49) (xy 104.14 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4610,6 +4721,16 @@
 			(type default)
 		)
 		(uuid "50a039ab-eec1-4434-803f-09437a597320")
+	)
+	(wire
+		(pts
+			(xy 257.81 110.49) (xy 257.81 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5382e302-d19f-473e-945d-b6f0521b54de")
 	)
 	(wire
 		(pts
@@ -4713,7 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 198.12) (xy 111.76 198.12)
+			(xy 109.22 203.2) (xy 111.76 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4733,7 +4854,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 130.81) (xy 93.98 130.81)
+			(xy 91.44 130.81) (xy 96.52 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5153,6 +5274,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 203.2) (xy 111.76 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b023e660-3850-46d3-a18d-05c54b29e48e")
+	)
+	(wire
+		(pts
 			(xy 147.32 99.06) (xy 149.86 99.06)
 		)
 		(stroke
@@ -5453,6 +5584,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 106.68) (xy 260.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4dc677-4074-4ade-8a3a-29363703d773")
+	)
+	(wire
+		(pts
 			(xy 160.02 73.66) (xy 160.02 127)
 		)
 		(stroke
@@ -5500,6 +5641,16 @@
 			(type default)
 		)
 		(uuid "e94f1692-ba48-4e97-9d00-8835ecdbdf5c")
+	)
+	(wire
+		(pts
+			(xy 257.81 113.03) (xy 266.7 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9adbf0e-f12e-43aa-aca6-cbf2c0ece5cf")
 	)
 	(wire
 		(pts
@@ -5707,6 +5858,26 @@
 		)
 		(uuid 73279b65-868e-4683-9062-9730e1612dde)
 	)
+	(text "I2C Address 0x21"
+		(exclude_from_sim no)
+		(at 118.11 208.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0563e0e3-e4cf-41cb-aee2-a575fe4fee92")
+	)
+	(text "I2C Address 0x42"
+		(exclude_from_sim no)
+		(at 92.202 12.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "124c8ab9-a9e5-4d1c-ab2c-2571c0ea5af0")
+	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
 		(at 210.312 132.842 0)
@@ -5752,6 +5923,18 @@
 		)
 		(uuid "44b0abfd-5ffd-47c6-a183-b85678fdec92")
 	)
+	(text "Two possible battery polarities - populate only one connector on board"
+		(exclude_from_sim no)
+		(at 229.87 88.9 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.3048)
+				(bold yes)
+			)
+		)
+		(uuid "54c55765-f927-4780-854e-3bbc77102cc9")
+	)
 	(text "M-BUS"
 		(exclude_from_sim no)
 		(at 205.486 1.778 0)
@@ -5766,7 +5949,7 @@
 	)
 	(text "I2C Port Expander"
 		(exclude_from_sim no)
-		(at 105.41 205.994 0)
+		(at 92.71 207.518 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5951,7 +6134,7 @@
 		(uuid "6ad55317-b5ab-4eff-94d4-58929453dcd8")
 	)
 	(label "LED_CHERRY"
-		(at 101.6 120.65 90)
+		(at 104.14 120.65 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6269,6 +6452,17 @@
 		)
 		(uuid "e05b8184-a9b4-4113-b316-c2088b959d5a")
 	)
+	(label "LEDD_CHERRY"
+		(at 91.44 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "e19a6808-5ae9-482f-8831-3f8db8167e21")
+	)
 	(label "LED_SW3_G"
 		(at 110.49 71.12 0)
 		(fields_autoplaced yes)
@@ -6377,16 +6571,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17936"
-			(at 74.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF4701T5E"
+		(property "MFR Part Number" "1206W4F4701T5E"
 			(at 74.93 107.95 0)
 			(effects
 				(font
@@ -6396,6 +6581,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17936"
 			(at 74.93 107.95 0)
 			(effects
 				(font
@@ -6806,16 +7000,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17936"
-			(at 270.51 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF4701T5E"
+		(property "MFR Part Number" "1206W4F4701T5E"
 			(at 270.51 24.13 0)
 			(effects
 				(font
@@ -6825,6 +7010,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 270.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17936"
 			(at 270.51 24.13 0)
 			(effects
 				(font
@@ -6902,16 +7096,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 110.49 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 110.49 101.6 0)
 			(effects
 				(font
@@ -6921,6 +7106,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 110.49 101.6 0)
 			(effects
 				(font
@@ -7063,16 +7257,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 67.31 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 67.31 72.39 0)
 			(effects
 				(font
@@ -7082,6 +7267,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 67.31 72.39 0)
 			(effects
 				(font
@@ -7112,7 +7306,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "196b3cb6-908c-497d-bc4c-2f686f420c22")
 		(property "Reference" "H3"
 			(at 247.65 139.446 0)
@@ -7221,7 +7415,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "MFR Part Number" "PEL12T4225SS1024"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -7230,16 +7424,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Number" ""
-			(at 53.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Bourns"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -7341,16 +7526,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 110.49 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 110.49 99.06 0)
 			(effects
 				(font
@@ -7360,6 +7536,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 110.49 99.06 0)
 			(effects
 				(font
@@ -7456,7 +7641,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2b4c6136-db24-452b-b521-a2f4f4fc7eac")
 		(property "Reference" "H2"
 			(at 242.57 139.446 0)
@@ -7631,7 +7816,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "MFR Part Number" "PEL12T4225SS1024"
 			(at 45.72 69.85 0)
 			(effects
 				(font
@@ -7640,16 +7825,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Number" ""
-			(at 45.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Bourns"
 			(at 45.72 69.85 0)
 			(effects
 				(font
@@ -7764,6 +7940,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 260.35 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "307fbe6e-e3a9-417c-9893-2080b6c2f829")
+		(property "Reference" "#PWR039"
+			(at 260.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "262babf8-0aed-44f3-bce8-c2a4ac066a23")
+		)
+		(instances
+			(project "OSSM-M5-Remote_v1"
+				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "encoder_rgb_ca:ENCODER_RGB_CA")
 		(at 132.08 99.06 0)
 		(mirror y)
@@ -7816,7 +8058,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "MFR Part Number" "PEL12T4225SS1024"
 			(at 132.08 99.06 0)
 			(effects
 				(font
@@ -7825,16 +8067,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Number" ""
-			(at 132.08 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Bourns"
 			(at 132.08 99.06 0)
 			(effects
 				(font
@@ -7936,16 +8169,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 118.11 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -7955,6 +8179,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 118.11 71.12 0)
 			(effects
 				(font
@@ -8100,7 +8333,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "MFR Part Number" "PCA9685"
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -8109,7 +8342,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Number" ""
+		(property "Manufacturer" "NXP"
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -8118,7 +8351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C2678753"
 			(at 93.98 40.64 0)
 			(effects
 				(font
@@ -8222,7 +8455,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 113.03 0)
+		(at 237.49 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8231,7 +8464,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c7fb119-d976-450d-9fb2-a27cc92f63fa")
 		(property "Reference" "#PWR01"
-			(at 250.19 119.38 0)
+			(at 237.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8240,7 +8473,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 118.11 0)
+			(at 237.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +8481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 113.03 0)
+			(at 237.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 113.03 0)
+			(at 237.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 113.03 0)
+			(at 237.49 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,16 +8838,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17936"
-			(at 105.41 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF4701T5E"
+		(property "MFR Part Number" "1206W4F4701T5E"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -8624,6 +8848,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 105.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17936"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -8832,16 +9065,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17936"
-			(at 220.98 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF4701T5E"
+		(property "MFR Part Number" "1206W4F4701T5E"
 			(at 220.98 17.78 0)
 			(effects
 				(font
@@ -8851,6 +9075,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 220.98 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17936"
 			(at 220.98 17.78 0)
 			(effects
 				(font
@@ -8876,15 +9109,15 @@
 	)
 	(symbol
 		(lib_id "OSSM-M5-Remote_v1-eagle-import:JST-PH-2MM,180")
-		(at 242.57 109.22 0)
+		(at 229.87 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5bea2190-766b-4a15-adcb-4987153c1299")
-		(property "Reference" "U3"
-			(at 242.57 109.22 0)
+		(property "Reference" "B1"
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +9126,7 @@
 			)
 		)
 		(property "Value" "JST-PH-2MM,180"
-			(at 242.57 109.22 0)
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8901,8 +9134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:JST-PH-2.0MM_180DEGREES"
-			(at 242.57 109.22 0)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,7 +9144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 109.22 0)
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,16 +9153,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" ""
-			(at 242.57 109.22 0)
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,7 +9162,7 @@
 			)
 		)
 		(property "MFR Part Number" ""
-			(at 242.57 109.22 0)
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,7 +9171,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 242.57 109.22 0)
+			(at 229.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8964,7 +9188,7 @@
 		(instances
 			(project "OSSM-M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
-					(reference "U3")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -9156,16 +9380,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 118.11 73.66 0)
 			(effects
 				(font
@@ -9175,6 +9390,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 118.11 73.66 0)
 			(effects
 				(font
@@ -9251,16 +9475,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 67.31 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 67.31 69.85 0)
 			(effects
 				(font
@@ -9270,6 +9485,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 67.31 69.85 0)
 			(effects
 				(font
@@ -9288,6 +9512,72 @@
 			(project "OSSM-M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 266.7 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ec3422f-44a1-4fbb-a2c2-80f63c824b3b")
+		(property "Reference" "#PWR038"
+			(at 266.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 266.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 266.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a64f1fc-3283-4167-9347-122dbccce89e")
+		)
+		(instances
+			(project "OSSM-M5-Remote_v1"
+				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9493,7 +9783,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 250.19 110.49 0)
+		(at 237.49 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9502,7 +9792,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d868ff9-1ecb-4799-8c8b-511ffdc42faa")
 		(property "Reference" "#PWR02"
-			(at 250.19 114.3 0)
+			(at 237.49 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +9801,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 250.19 105.41 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,7 +9809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 110.49 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,7 +9818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 110.49 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9537,7 +9827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 250.19 110.49 0)
+			(at 237.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,7 +9981,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 130.81 90)
+		(at 100.33 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9699,7 +9989,7 @@
 		(dnp no)
 		(uuid "92d0eeda-5d7a-401e-b983-dc2b86a14f91")
 		(property "Reference" "R17"
-			(at 97.79 130.81 90)
+			(at 100.33 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9707,7 +9997,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 97.79 127 90)
+			(at 100.33 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9716,7 +10006,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 97.79 132.588 90)
+			(at 100.33 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9725,7 +10015,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F1200T5E_C17909.pdf"
-			(at 97.79 130.81 0)
+			(at 100.33 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,7 +10024,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 130.81 0)
+			(at 100.33 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9742,17 +10032,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 97.79 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
-			(at 97.79 130.81 0)
+		(property "MFR Part Number" "1206W4F1200T5E"
+			(at 100.33 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9761,7 +10042,16 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
-			(at 97.79 130.81 0)
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
+			(at 100.33 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9791,7 +10081,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "92f7769b-7cc9-4978-a5e1-727d2e482640")
 		(property "Reference" "H4"
 			(at 252.73 139.446 0)
@@ -9902,16 +10192,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 110.49 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 110.49 104.14 0)
 			(effects
 				(font
@@ -9921,6 +10202,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 110.49 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 110.49 104.14 0)
 			(effects
 				(font
@@ -10000,7 +10290,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "MFR Part Number" "MCP23017-E/SS"
 			(at 106.68 179.07 0)
 			(effects
 				(font
@@ -10009,7 +10299,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Number" ""
+		(property "Manufacturer" "Microchip Tech"
 			(at 106.68 179.07 0)
 			(effects
 				(font
@@ -10018,7 +10308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C506653"
 			(at 106.68 179.07 0)
 			(effects
 				(font
@@ -10174,16 +10464,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 118.11 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -10193,6 +10474,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 118.11 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -10269,16 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 74.93 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 74.93 100.33 0)
 			(effects
 				(font
@@ -10288,6 +10569,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 74.93 100.33 0)
 			(effects
 				(font
@@ -10358,15 +10648,6 @@
 			)
 		)
 		(property "Description" "Cherry MX series keyswitch with LED"
-			(at 73.66 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Number" ""
 			(at 73.66 128.27 0)
 			(effects
 				(font
@@ -10533,16 +10814,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 74.93 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 74.93 102.87 0)
 			(effects
 				(font
@@ -10552,6 +10824,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 74.93 102.87 0)
 			(effects
 				(font
@@ -10612,7 +10893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 57.15 41.91 0)
 			(effects
 				(font
@@ -10630,15 +10911,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C1525"
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part Number" "CL05B104KO5NNNC"
 			(at 57.15 41.91 0)
 			(effects
@@ -10648,7 +10920,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Manufacturer" "Samsung"
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 57.15 41.91 0)
 			(effects
 				(font
@@ -10680,7 +10961,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a9081243-5487-4f92-8d70-d77399d56546")
 		(property "Reference" "#PWR029"
 			(at 111.76 201.93 0)
@@ -10841,7 +11121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
 			(at 71.12 184.15 0)
 			(effects
 				(font
@@ -10859,15 +11139,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C1525"
-			(at 71.12 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MFR Part Number" "CL05B104KO5NNNC"
 			(at 71.12 184.15 0)
 			(effects
@@ -10877,7 +11148,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+		(property "Manufacturer" "Samsung"
+			(at 71.12 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 71.12 184.15 0)
 			(effects
 				(font
@@ -11086,7 +11366,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "MFR Part Number" "PEL12T4225SS1024"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -11095,16 +11375,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Number" ""
-			(at 139.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Bourns"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -11337,16 +11608,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 67.31 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 67.31 74.93 0)
 			(effects
 				(font
@@ -11356,6 +11618,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 67.31 74.93 0)
 			(effects
 				(font
@@ -11630,16 +11901,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17936"
-			(at 67.31 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF4701T5E"
+		(property "MFR Part Number" "1206W4F4701T5E"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -11649,6 +11911,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17936"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -11679,7 +11950,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d42609b5-309a-407f-a748-cff1f400ee06")
 		(property "Reference" "H1"
 			(at 237.49 139.446 0)
@@ -11797,6 +12068,76 @@
 			(project "OSSM-M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OSSM-M5-Remote_v1-eagle-import:JST-PH-2MM,180,reversepolarity")
+		(at 250.19 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc64b6b4-f6a2-46ba-ab30-fc2838ed1e59")
+		(property "Reference" "B2"
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 249.936 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a4ddc90-8342-440f-bbed-82b5b56ceaca")
+		)
+		(pin "1"
+			(uuid "fd6b70be-6e28-4599-92b6-46e80653b948")
+		)
+		(instances
+			(project "OSSM-M5-Remote_v1"
+				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
+					(reference "B2")
 					(unit 1)
 				)
 			)
@@ -11922,16 +12263,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17936"
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF4701T5E"
+		(property "MFR Part Number" "1206W4F4701T5E"
 			(at 118.11 76.2 0)
 			(effects
 				(font
@@ -11941,6 +12273,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 118.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17936"
 			(at 118.11 76.2 0)
 			(effects
 				(font
@@ -12001,7 +12342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf"
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -12019,7 +12360,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" ""
+		(property "MFR Part Number" "10129381-930001BLF "
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -12028,16 +12369,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part Number" ""
-			(at 245.11 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Amphenol FCI"
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -12198,16 +12530,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Number" "C17909"
-			(at 74.93 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR Part Number" "0603WAF1200T5E"
+		(property "MFR Part Number" "1206W4F1200T5E"
 			(at 74.93 105.41 0)
 			(effects
 				(font
@@ -12217,6 +12540,15 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL"
+			(at 74.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
 			(at 74.93 105.41 0)
 			(effects
 				(font
