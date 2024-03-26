@@ -457,7 +457,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OSSM-M5-Remote_v1.kicad_pro",
+    "filename": "M5-Remote_v1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -647,7 +647,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "OSSM-M5-Remote_v1.step",
+      "step": "M5-Remote_v1.step",
       "svg": "",
       "vrml": ""
     },

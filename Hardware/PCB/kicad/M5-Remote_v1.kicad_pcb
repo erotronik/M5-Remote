@@ -184,7 +184,7 @@
 	(net 73 "/SW4_ROTB")
 	(net 74 "/SW4_ROTA")
 	(net 75 "/CHERRY_BUTTON")
-	(footprint "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+	(footprint "M5-Remote_v1:mounting_hole_3.3mm"
 		(layer "F.Cu")
 		(uuid "0c326f87-247c-41cf-87f4-ad4ab1b1c65d")
 		(at 113.5011 102.206)
@@ -211,7 +211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+		(property "Footprint" "M5-Remote_v1:mounting_hole_3.3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -257,7 +257,7 @@
 			(uuid "42a29795-9943-4154-a2e3-be8b6fd4767c")
 		)
 	)
-	(footprint "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+	(footprint "M5-Remote_v1:PEL12T4225SS1024"
 		(layer "F.Cu")
 		(uuid "0ebc48ab-a8f7-4aa7-bcbd-613e2d61c5f8")
 		(at 103.5013 109.7896)
@@ -286,7 +286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+		(property "Footprint" "M5-Remote_v1:PEL12T4225SS1024"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -651,7 +651,7 @@
 			)
 		)
 	)
-	(footprint "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+	(footprint "M5-Remote_v1:PEL12T4225SS1024"
 		(layer "F.Cu")
 		(uuid "52fc6c70-7480-446c-9d0f-07e9074f705e")
 		(at 193.5009 109.253)
@@ -680,7 +680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+		(property "Footprint" "M5-Remote_v1:PEL12T4225SS1024"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1045,7 +1045,7 @@
 			)
 		)
 	)
-	(footprint "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+	(footprint "M5-Remote_v1:PEL12T4225SS1024"
 		(layer "F.Cu")
 		(uuid "7ecdf39e-8e58-49ef-ae44-897517a43ed3")
 		(at 123.5011 129.2898 180)
@@ -1074,7 +1074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+		(property "Footprint" "M5-Remote_v1:PEL12T4225SS1024"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1439,7 +1439,7 @@
 			)
 		)
 	)
-	(footprint "OSSM-M5-Remote_v1:CHERRY-MX-LED"
+	(footprint "M5-Remote_v1:CHERRY-MX-LED"
 		(layer "F.Cu")
 		(uuid "84eb0f4b-842f-4215-afa3-762b40ccb0c2")
 		(at 148.5111 128.38)
@@ -1470,7 +1470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:CHERRY-MX-LED"
+		(property "Footprint" "M5-Remote_v1:CHERRY-MX-LED"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1676,7 +1676,7 @@
 			)
 		)
 	)
-	(footprint "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+	(footprint "M5-Remote_v1:mounting_hole_3.3mm"
 		(layer "F.Cu")
 		(uuid "85399266-524e-4965-9dc9-9e10bef78404")
 		(at 183.5011 102.206)
@@ -1703,7 +1703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+		(property "Footprint" "M5-Remote_v1:mounting_hole_3.3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1749,7 +1749,7 @@
 			(uuid "9c0ed579-52c5-4b58-a8ed-d6ae8e2eb963")
 		)
 	)
-	(footprint "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+	(footprint "M5-Remote_v1:mounting_hole_3.3mm"
 		(layer "F.Cu")
 		(uuid "e44d9056-d29f-4600-9efd-75e2aa3dbb64")
 		(at 162.5011 134.54)
@@ -1776,7 +1776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+		(property "Footprint" "M5-Remote_v1:mounting_hole_3.3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1822,7 +1822,7 @@
 			(uuid "bf4df2d2-95da-4ce8-84ff-71f80dfa1a89")
 		)
 	)
-	(footprint "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+	(footprint "M5-Remote_v1:PEL12T4225SS1024"
 		(layer "F.Cu")
 		(uuid "e781ac5d-70fe-416c-be96-a6e578d25cbf")
 		(at 173.5009 129.29 180)
@@ -1851,7 +1851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+		(property "Footprint" "M5-Remote_v1:PEL12T4225SS1024"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2216,7 +2216,7 @@
 			)
 		)
 	)
-	(footprint "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+	(footprint "M5-Remote_v1:mounting_hole_3.3mm"
 		(layer "F.Cu")
 		(uuid "ef240c3b-6c55-44b5-801d-2e15314814ce")
 		(at 134.5011 134.54)
@@ -2243,7 +2243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+		(property "Footprint" "M5-Remote_v1:mounting_hole_3.3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4568,7 +4568,7 @@
 			)
 		)
 	)
-	(footprint "OSSM-M5-Remote_v1:M5_CORE2"
+	(footprint "M5-Remote_v1:M5_CORE2"
 		(layer "B.Cu")
 		(uuid "3d9a234b-b8e6-452e-aa33-815a6f839297")
 		(at 168.7711 107.32 90)
@@ -4599,7 +4599,7 @@
 				(justify top mirror)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:M5_CORE2"
+		(property "Footprint" "M5-Remote_v1:M5_CORE2"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")

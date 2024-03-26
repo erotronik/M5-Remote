@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "OSSM-M5-Remote_v1-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/OSSM-M5-Remote_v1-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "M5-Remote_v1")(type "KiCad")(uri "${KIPRJMOD}/M5-Remote_v1.kicad_sym")(options "")(descr ""))
   (lib (name "encoder_rgb_ca")(type "KiCad")(uri "${KIPRJMOD}/encoder_rgb_ca.kicad_sym")(options "")(descr ""))
 )

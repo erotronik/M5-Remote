@@ -25,7 +25,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:CHERRY-MX-LED"
+		(property "Footprint" "M5-Remote_v1:CHERRY-MX-LED"
 			(at -0.254 16.764 0)
 			(effects
 				(font
@@ -1037,7 +1037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:PEC12R4017FN0024"
+		(property "Footprint" "M5-Remote_v1:PEC12R4017FN0024"
 			(at 4.318 19.558 0)
 			(effects
 				(font

@@ -1522,7 +1522,7 @@
 				)
 			)
 		)
-		(symbol "OSSM-M5-Remote_v1-eagle-import:CHERRY-MX-LED"
+		(symbol "M5-Remote_v1:CHERRY-MX-LED"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1545,7 +1545,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "OSSM-M5-Remote_v1:CHERRY-MX-LED"
+			(property "Footprint" "M5-Remote_v1:CHERRY-MX-LED"
 				(at -0.254 16.764 0)
 				(effects
 					(font
@@ -1712,7 +1712,7 @@
 				)
 			)
 		)
-		(symbol "OSSM-M5-Remote_v1-eagle-import:JST-PH-2MM,180"
+		(symbol "M5-Remote_v1:JST-PH-2MM,180"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1821,7 +1821,7 @@
 				)
 			)
 		)
-		(symbol "OSSM-M5-Remote_v1-eagle-import:JST-PH-2MM,180,reversepolarity"
+		(symbol "M5-Remote_v1:JST-PH-2MM,180,reversepolarity"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1922,7 +1922,7 @@
 				)
 			)
 		)
-		(symbol "OSSM-M5-Remote_v1-eagle-import:M5_CORE2"
+		(symbol "M5-Remote_v1:M5_CORE2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2558,7 +2558,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+			(property "Footprint" "M5-Remote_v1:PEL12T4225SS1024"
 				(at -1.27 14.224 0)
 				(effects
 					(font
@@ -6605,7 +6605,7 @@
 			(uuid "9bd7670f-f744-4329-bcde-e951ab1c25ea")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R8")
 					(unit 1)
@@ -6672,7 +6672,7 @@
 			(uuid "244fff24-0c86-43da-805d-122beaebe134")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR036")
 					(unit 1)
@@ -6739,7 +6739,7 @@
 			(uuid "ea66f9d4-484d-4051-8af9-073ab17b378b")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR010")
 					(unit 1)
@@ -6805,7 +6805,7 @@
 			(uuid "bb9b349e-e4ec-4b98-8cd8-c2bcd6e836a3")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR035")
 					(unit 1)
@@ -6872,7 +6872,7 @@
 			(uuid "c40b1e21-e7c5-4f67-86e5-036bdbd02b13")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR014")
 					(unit 1)
@@ -6938,7 +6938,7 @@
 			(uuid "807f0283-02cf-45bb-82c0-d3ec845bae73")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR06")
 					(unit 1)
@@ -7034,7 +7034,7 @@
 			(uuid "04897f28-f15a-4ed6-b059-f3934fa75177")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R19")
 					(unit 1)
@@ -7130,7 +7130,7 @@
 			(uuid "2d608865-fab2-4fa2-8c7b-88e3deb2856f")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R14")
 					(unit 1)
@@ -7196,7 +7196,7 @@
 			(uuid "e40a5f4b-5f8e-49ca-bdf6-7f27f2df5e2f")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR031")
 					(unit 1)
@@ -7291,7 +7291,7 @@
 			(uuid "4c5449a2-ab9b-4ddc-a1f4-c5ab82411c8a")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R2")
 					(unit 1)
@@ -7327,7 +7327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+		(property "Footprint" "M5-Remote_v1:mounting_hole_3.3mm"
 			(at 248.92 143.51 0)
 			(effects
 				(font
@@ -7355,7 +7355,7 @@
 			)
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "H3")
 					(unit 1)
@@ -7388,7 +7388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+		(property "Footprint" "M5-Remote_v1:PEL12T4225SS1024"
 			(at 53.34 100.33 0)
 			(effects
 				(font
@@ -7464,7 +7464,7 @@
 			(uuid "594f9892-5527-4488-81d0-5d3f72ca97b8")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "SW2")
 					(unit 1)
@@ -7560,7 +7560,7 @@
 			(uuid "4328d77e-7613-4eef-a989-2e150fc29b6d")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R13")
 					(unit 1)
@@ -7626,7 +7626,7 @@
 			(uuid "8bd2b378-40bc-4811-b787-94fadb90c2c3")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR034")
 					(unit 1)
@@ -7662,7 +7662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+		(property "Footprint" "M5-Remote_v1:mounting_hole_3.3mm"
 			(at 243.84 143.51 0)
 			(effects
 				(font
@@ -7690,7 +7690,7 @@
 			)
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "H2")
 					(unit 1)
@@ -7756,7 +7756,7 @@
 			(uuid "d834dfa6-8562-48b8-b172-532c9d82be7c")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR03")
 					(unit 1)
@@ -7789,7 +7789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+		(property "Footprint" "M5-Remote_v1:PEL12T4225SS1024"
 			(at 45.72 69.85 0)
 			(effects
 				(font
@@ -7865,7 +7865,7 @@
 			(uuid "6809e821-be68-4180-99d8-7d3240d8aba5")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "SW1")
 					(unit 1)
@@ -7931,7 +7931,7 @@
 			(uuid "016c4ae7-f8ba-4710-82c1-fdaa23c08d02")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR025")
 					(unit 1)
@@ -7997,7 +7997,7 @@
 			(uuid "262babf8-0aed-44f3-bce8-c2a4ac066a23")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR039")
 					(unit 1)
@@ -8031,7 +8031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+		(property "Footprint" "M5-Remote_v1:PEL12T4225SS1024"
 			(at 132.08 99.06 0)
 			(effects
 				(font
@@ -8107,7 +8107,7 @@
 			(uuid "63eed73a-3c81-486a-953a-79c8217d70e9")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "SW4")
 					(unit 1)
@@ -8203,7 +8203,7 @@
 			(uuid "906a4554-29e5-43f4-bab0-55b158e9d3f8")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R10")
 					(unit 1)
@@ -8269,7 +8269,7 @@
 			(uuid "8479877a-ad9b-4f9f-9a83-78bbbb9e88fd")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR012")
 					(unit 1)
@@ -8445,7 +8445,7 @@
 			(uuid "34b7a4f1-8a54-43c1-9dae-c61a0179cf23")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "U1")
 					(unit 1)
@@ -8511,7 +8511,7 @@
 			(uuid "2090c499-53f6-4148-8905-311c79c9af9d")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR01")
 					(unit 1)
@@ -8577,7 +8577,7 @@
 			(uuid "c46aa0b2-1c12-4eea-b0fd-807518c836cf")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR015")
 					(unit 1)
@@ -8643,7 +8643,7 @@
 			(uuid "116e6674-4e88-4056-a8de-c16a449cd721")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR023")
 					(unit 1)
@@ -8710,7 +8710,7 @@
 			(uuid "4a1e5c9e-b7e5-4067-a3f7-735437a57ecf")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR037")
 					(unit 1)
@@ -8776,7 +8776,7 @@
 			(uuid "a419b9ca-341a-4e43-87df-8caf4940da0c")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR08")
 					(unit 1)
@@ -8872,7 +8872,7 @@
 			(uuid "9056c995-bede-4c5f-b0a4-c6b5a9eb44de")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R16")
 					(unit 1)
@@ -8938,7 +8938,7 @@
 			(uuid "a9eb3e37-b3c6-4667-9170-3684d24f071d")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR05")
 					(unit 1)
@@ -9003,7 +9003,7 @@
 			(uuid "1c5523d1-6c11-4d99-a501-8e92e5dd4970")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR033")
 					(unit 1)
@@ -9099,7 +9099,7 @@
 			(uuid "82947305-4c8f-461f-853c-70f6f26452ae")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R18")
 					(unit 1)
@@ -9108,7 +9108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OSSM-M5-Remote_v1-eagle-import:JST-PH-2MM,180")
+		(lib_id "M5-Remote_v1:JST-PH-2MM,180")
 		(at 229.87 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9186,7 +9186,7 @@
 			(uuid "abdb0fd5-f21b-48ae-a12e-b7aea9b3dc32")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "B1")
 					(unit 1)
@@ -9252,7 +9252,7 @@
 			(uuid "8e50ef56-870f-42ba-ac3e-ca57dd2f9182")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR020")
 					(unit 1)
@@ -9318,7 +9318,7 @@
 			(uuid "0702fa30-ba04-4797-98d8-80fb752f92a8")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR019")
 					(unit 1)
@@ -9414,7 +9414,7 @@
 			(uuid "9d5772a7-f650-479a-a103-1ce41cc024e7")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R11")
 					(unit 1)
@@ -9509,7 +9509,7 @@
 			(uuid "d2ba4a84-9fc2-4ad3-90b4-d7e7868e2ce7")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R1")
 					(unit 1)
@@ -9575,7 +9575,7 @@
 			(uuid "4a64f1fc-3283-4167-9347-122dbccce89e")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR038")
 					(unit 1)
@@ -9641,7 +9641,7 @@
 			(uuid "fc1fdcf2-5fea-4e6c-aa06-8e70cf7a1ad9")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR04")
 					(unit 1)
@@ -9707,7 +9707,7 @@
 			(uuid "a6e82772-fd48-4449-8469-a8801ea92323")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR022")
 					(unit 1)
@@ -9773,7 +9773,7 @@
 			(uuid "d16ba478-34bd-468a-826b-3555ac1659d9")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR011")
 					(unit 1)
@@ -9839,7 +9839,7 @@
 			(uuid "78d16c54-5955-4d66-aa60-d3536cd54f89")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR02")
 					(unit 1)
@@ -9905,7 +9905,7 @@
 			(uuid "86f47f25-7d36-4eea-8d6c-aafc7940450e")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR017")
 					(unit 1)
@@ -9971,7 +9971,7 @@
 			(uuid "763eace5-e0b7-42e0-bba0-af4229f623e6")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR016")
 					(unit 1)
@@ -10066,7 +10066,7 @@
 			(uuid "f2998fac-cda3-4c26-a733-300c833314db")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R17")
 					(unit 1)
@@ -10102,7 +10102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+		(property "Footprint" "M5-Remote_v1:mounting_hole_3.3mm"
 			(at 254 143.51 0)
 			(effects
 				(font
@@ -10130,7 +10130,7 @@
 			)
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "H4")
 					(unit 1)
@@ -10226,7 +10226,7 @@
 			(uuid "461dc739-93b3-4f33-bf64-7c291e22bcfb")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R15")
 					(unit 1)
@@ -10402,7 +10402,7 @@
 			(uuid "83f2f98e-0be5-4da5-bdea-1d07253e7c93")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "U2")
 					(unit 1)
@@ -10498,7 +10498,7 @@
 			(uuid "e028cc05-2e43-4eff-bfc5-3d4102820437")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R9")
 					(unit 1)
@@ -10593,7 +10593,7 @@
 			(uuid "3f8b3b92-f675-4aaf-82b1-42bd3b70ffdd")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R5")
 					(unit 1)
@@ -10602,7 +10602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OSSM-M5-Remote_v1-eagle-import:CHERRY-MX-LED")
+		(lib_id "M5-Remote_v1:CHERRY-MX-LED")
 		(at 73.66 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10629,7 +10629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:CHERRY-MX-LED"
+		(property "Footprint" "M5-Remote_v1:CHERRY-MX-LED"
 			(at 73.66 128.27 0)
 			(effects
 				(font
@@ -10687,7 +10687,7 @@
 			(uuid "e85d38d7-4d66-4f88-bc7a-1689a432b3b4")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "U4")
 					(unit 1)
@@ -10753,7 +10753,7 @@
 			(uuid "e0fa5811-7488-46d5-bc54-c38692c842da")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR013")
 					(unit 1)
@@ -10848,7 +10848,7 @@
 			(uuid "ab801259-7577-4f84-a353-35cc1019a289")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R6")
 					(unit 1)
@@ -10945,7 +10945,7 @@
 			(uuid "e5e424ec-3a3e-4a84-aa41-86607e71b6bd")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "C1")
 					(unit 1)
@@ -11010,7 +11010,7 @@
 			(uuid "8f97d87a-9545-4843-a6bd-c0c407008747")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR029")
 					(unit 1)
@@ -11076,7 +11076,7 @@
 			(uuid "fd42da3a-f789-4f80-be4a-f638eda47528")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR026")
 					(unit 1)
@@ -11173,7 +11173,7 @@
 			(uuid "6ddc19f5-20d7-4d1e-a440-e9d2d655d989")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "C2")
 					(unit 1)
@@ -11239,7 +11239,7 @@
 			(uuid "aa757095-d209-4b9c-8e3a-f8774468d7ef")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR030")
 					(unit 1)
@@ -11305,7 +11305,7 @@
 			(uuid "b0ec3c1a-7f5b-4232-89c2-e6d7118a086b")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR09")
 					(unit 1)
@@ -11339,7 +11339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:PEL12T4225SS1024"
+		(property "Footprint" "M5-Remote_v1:PEL12T4225SS1024"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -11415,7 +11415,7 @@
 			(uuid "ff9e7f6a-c96d-4685-946f-5ac37d778362")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "SW3")
 					(unit 1)
@@ -11481,7 +11481,7 @@
 			(uuid "afa17955-8559-4b75-8923-eff69b5b9e69")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR028")
 					(unit 1)
@@ -11547,7 +11547,7 @@
 			(uuid "dd0dfe9e-0d54-4b16-91b5-c6f250a83117")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR027")
 					(unit 1)
@@ -11642,7 +11642,7 @@
 			(uuid "f0803397-edb3-481e-84bc-b9dfb7d69f7b")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R3")
 					(unit 1)
@@ -11708,7 +11708,7 @@
 			(uuid "4284cec4-5bf8-4798-9c4a-069318dd37db")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR07")
 					(unit 1)
@@ -11774,7 +11774,7 @@
 			(uuid "5f18efb8-c98c-4d8b-b5f3-53792a050920")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR021")
 					(unit 1)
@@ -11840,7 +11840,7 @@
 			(uuid "037a41c7-4ad2-4755-a6c6-0e09261d7136")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR032")
 					(unit 1)
@@ -11935,7 +11935,7 @@
 			(uuid "fa3c26ae-4709-468f-920b-1989edc887c8")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R4")
 					(unit 1)
@@ -11971,7 +11971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:mounting_hole_3.3mm"
+		(property "Footprint" "M5-Remote_v1:mounting_hole_3.3mm"
 			(at 238.76 143.51 0)
 			(effects
 				(font
@@ -11999,7 +11999,7 @@
 			)
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "H1")
 					(unit 1)
@@ -12065,7 +12065,7 @@
 			(uuid "6afacba6-eb63-4dca-8798-04250d519f95")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR018")
 					(unit 1)
@@ -12074,7 +12074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OSSM-M5-Remote_v1-eagle-import:JST-PH-2MM,180,reversepolarity")
+		(lib_id "M5-Remote_v1:JST-PH-2MM,180,reversepolarity")
 		(at 250.19 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12135,7 +12135,7 @@
 			(uuid "fd6b70be-6e28-4599-92b6-46e80653b948")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "B2")
 					(unit 1)
@@ -12201,7 +12201,7 @@
 			(uuid "4b44072f-324e-46ef-ba45-e0da3105a1fd")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "#PWR024")
 					(unit 1)
@@ -12297,7 +12297,7 @@
 			(uuid "fceba40f-d08a-4338-9b44-41274427e0df")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R12")
 					(unit 1)
@@ -12306,7 +12306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "OSSM-M5-Remote_v1-eagle-import:M5_CORE2")
+		(lib_id "M5-Remote_v1:M5_CORE2")
 		(at 245.11 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12333,7 +12333,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "OSSM-M5-Remote_v1:M5_CORE2"
+		(property "Footprint" "M5-Remote_v1:M5_CORE2"
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -12469,7 +12469,7 @@
 			(uuid "c87131c7-313f-4960-904e-075ac89c5849")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "M5-CORE2")
 					(unit 1)
@@ -12564,7 +12564,7 @@
 			(uuid "348ca0fa-4ce7-416d-9c2c-20c88eb84871")
 		)
 		(instances
-			(project "OSSM-M5-Remote_v1"
+			(project "M5-Remote_v1"
 				(path "/34984dbd-fd6c-43b7-996b-7c11903ec195"
 					(reference "R7")
 					(unit 1)
