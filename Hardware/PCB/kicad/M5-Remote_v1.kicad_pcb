@@ -247,8 +247,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/2b4c6136-db24-452b-b521-a2f4f4fc7eac")
-		(attr exclude_from_bom dnp)
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.3 3.3)
@@ -274,7 +277,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "PEL12T4225SS1024"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -349,6 +352,8 @@
 			)
 		)
 		(path "/1affe08f-a49a-4086-868f-0c6225be0138")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -6.2 -6.6)
@@ -668,7 +673,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "PEL12T4225SS1024"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -743,6 +748,8 @@
 			)
 		)
 		(path "/3500cb85-51d6-4205-a1d1-4fe261cd5c3b")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start -6.2 -6.6)
@@ -1062,7 +1069,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "PEL12T4225SS1024"
 			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1137,6 +1144,8 @@
 			)
 		)
 		(path "/2dc9f391-7486-40b2-ac9f-1f0feed7f749")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 6.2 6.6)
@@ -1444,7 +1453,7 @@
 		(uuid "84eb0f4b-842f-4215-afa3-762b40ccb0c2")
 		(at 148.5111 128.38)
 		(descr "Cherry MX series keyswitch footprint with additional holes for LED")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at -7.62 -7.62 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -1458,7 +1467,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "CHERRY-MX-LED"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1506,19 +1515,6 @@
 				)
 			)
 		)
-		(property "JLCPCB Part Number" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99d9168a-c3b3-48a1-aaae-1e8237231375")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MFR Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -1546,6 +1542,8 @@
 			)
 		)
 		(path "/9c8c7791-14ef-44ec-8ab5-620c21a60f2d")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -7.62 -7.62)
@@ -1739,8 +1737,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/196b3cb6-908c-497d-bc4c-2f686f420c22")
-		(attr exclude_from_bom dnp)
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.3 3.3)
@@ -1812,8 +1813,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/d42609b5-309a-407f-a748-cff1f400ee06")
-		(attr exclude_from_bom dnp)
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.3 3.3)
@@ -1839,7 +1843,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "PEL12T4225SS1024"
 			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1914,6 +1918,8 @@
 			)
 		)
 		(path "/bc0d5f80-72e4-4cb8-8058-0a5ecf8aae02")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 6.2 6.6)
@@ -2279,8 +2285,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/92f7769b-7cc9-4978-a5e1-727d2e482640")
-		(attr exclude_from_bom dnp)
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3.3 3.3)
@@ -2400,7 +2409,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00a5efe9-4b63-4bfd-b63e-a69cb95d5f09")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -2655,7 +2667,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9addc028-781b-4181-bc12-3a87013a66f4")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -2910,7 +2925,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "SSOP*5.3x10.2mm*P0.65mm*")
 		(path "/93df7763-fc96-40fe-a616-17c448dfbc2e")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.875 -5.325)
@@ -3461,7 +3479,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9304fd30-392b-418e-8ed9-8c3b7156b225")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 0.91)
@@ -3716,7 +3737,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/f9600b36-6d0f-4b80-948e-a619bba6d915")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -3971,7 +3995,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/12e6a962-4eaf-4d67-b4f4-ff51c9e77270")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 0.91)
@@ -4226,7 +4253,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/1ce35443-89a0-4980-ba25-72cc6afdcb9d")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 0.91)
@@ -4388,7 +4418,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "JST-PH-2MM,180"
 			(at 1 -7.45 90)
 			(layer "B.Fab")
 			(uuid "3ae8f03a-b886-4b49-ad21-344371cc6a91")
@@ -4440,7 +4470,9 @@
 			)
 		)
 		(path "/dc64b6b4-f6a2-46ba-ab30-fc2838ed1e59")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 4.45 -6.75)
 			(end -2.45 -6.75)
@@ -4586,7 +4618,7 @@
 				(justify bottom mirror)
 			)
 		)
-		(property "Value" "M5_CORE2"
+		(property "Value" "M5Bus Header"
 			(at 0 -4.405 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4667,6 +4699,8 @@
 			)
 		)
 		(path "/f73688c1-2978-4c80-931d-a35e4f457968")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start 37.28 -3.77)
@@ -5242,7 +5276,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/665ceb29-f075-4b2f-bad8-00134cb5a64e")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -5497,7 +5534,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9fd36a4f-3979-4293-9dcc-7cd4fda99ac8")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -5752,7 +5792,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/d212d400-9e80-4898-8154-a2ed324fbd55")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -6007,7 +6050,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5303c362-f437-4a35-845a-b6ae6470bebb")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 0.91)
@@ -6262,7 +6308,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/35bdd957-9e55-4ee7-b0f9-d4d74b3e4b51")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 0.91)
@@ -6517,7 +6566,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/15fc7ee2-865b-4e7b-ae79-aa0ac75e18a0")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -6772,7 +6824,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/92d0eeda-5d7a-401e-b983-dc2b86a14f91")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -6985,20 +7040,6 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Part Number" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "72df6149-c38c-463b-bb9b-415d8a4b4d91")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "MFR Part Number" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -7028,7 +7069,9 @@
 			)
 		)
 		(path "/5bea2190-766b-4a15-adcb-4987153c1299")
-		(attr through_hole)
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
+		(attr through_hole exclude_from_pos_files)
 		(fp_line
 			(start 4.45 -6.75)
 			(end -2.45 -6.75)
@@ -7297,7 +7340,24 @@
 				(justify mirror)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "90"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "812ef024-a065-4e84-ac5d-0eb71a0bd313")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "TSSOP*4.4x9.7mm*P0.65mm*")
 		(path "/378d650c-0bbe-42d8-b9b1-0337518ddee6")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.31 -4.96)
@@ -7896,7 +7956,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/644f70cd-0791-4505-b141-3f353f270204")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 0.91)
@@ -8151,7 +8214,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ecf7b10d-4e44-4f61-b936-4fbdadd4b0a7")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 0.91)
@@ -8406,7 +8472,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5abee7b5-0797-48e7-8fbc-1f6b74c1ffdf")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -8661,7 +8730,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/98f6e5b6-786c-4e79-a73c-afff3e2a970e")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 0.91)
@@ -8916,7 +8988,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a4bb563e-f000-4fc7-bce7-78a54ab3c5d5")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.107836 0.36)
@@ -9171,7 +9246,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/cc2ada76-eaf8-454d-bd89-17bb355f9946")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 -0.91)
@@ -9426,7 +9504,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/ae07e586-4add-4270-90e6-1f4616654a32")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.107836 -0.36)
@@ -9681,7 +9762,10 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/1492d058-b844-4632-a687-cf16b78edc46")
+		(sheetname "Root")
+		(sheetfile "M5-Remote_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.727064 0.91)
@@ -10130,6 +10214,18 @@
 				(thickness 0.14224)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 118 102.5 0)
+		(layer "F.SilkS")
+		(uuid "2b6c91c7-4eeb-455b-8b9d-0148a468d5b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text ""
@@ -14041,8 +14137,8 @@
 				(xy 133.519737 102.016503) (xy 133.459394 101.870821) (xy 133.371789 101.739711) (xy 133.260289 101.628211)
 				(xy 133.186403 101.578842) (xy 157.4495 101.578842) (xy 157.454455 101.60375) (xy 157.480261 101.733491)
 				(xy 157.480264 101.733501) (xy 157.540603 101.879174) (xy 157.623342 102.003003) (xy 157.628211 102.010289)
-				(xy 163.559711 107.941789) (xy 163.690821 108.029394) (xy 163.690826 108.029396) (xy 163.690825 108.029396)
-				(xy 163.836498 108.089735) (xy 163.836503 108.089737) (xy 163.991158 108.1205) (xy 164.148842 108.1205)
+				(xy 163.448211 107.830289) (xy 163.559711 107.941789) (xy 163.690821 108.029394) (xy 163.690826 108.029396)
+				(xy 163.690825 108.029396) (xy 163.836498 108.089735) (xy 163.836503 108.089737) (xy 163.991158 108.1205)
 				(xy 165.369009 108.1205) (xy 165.418862 108.139813) (xy 165.533255 108.244096) (xy 165.714939 108.35659)
 				(xy 165.914201 108.433784) (xy 166.124254 108.47305) (xy 166.337946 108.47305) (xy 166.547999 108.433784)
 				(xy 166.747261 108.35659) (xy 166.928945 108.244096) (xy 167.086865 108.100133) (xy 167.108322 108.07172)

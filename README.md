@@ -1,7 +1,16 @@
-# Project OSSM M5 REMOTE
+# Project M5 REMOTE
+
+Please note that this is a modification of the OSSM-M5-Remote project, which is available at https://github.com/ortlof/OSSM-M5-Remote.
+
+This modification adds RGB LED Rotary encoders, and allows the installation of an LED in the push-button.
+
+Furthermore, communication with the board is switched to I2C, using a PWM controller for the LEDs and a port expander for the Rotary encoders.
+
+The modified PCB besign can be found in the `Hardware/PCB/kicad` folder.
+
 ## Overview of the OSSM-M5-Remote
 
-A Remote Control Platform for all ESP Controlled Sex Toys,with a focus on the [OSSM](https://github.com/KinkyMakers/OSSM-hardware) and related toys.
+A Remote Control Platform for all ESP Controlled Sex Toys, with a focus on the [OSSM](https://github.com/KinkyMakers/OSSM-hardware) and related toys.
 
 ![Final Addon](image/remote.png?raw=true "Remote" )
 
