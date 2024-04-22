@@ -10228,18 +10228,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text ""
-		(at 151.933831 74.786 0)
-		(layer "F.SilkS")
-		(uuid "40494fd1-acc3-4ecc-b1d7-725b3747eb3b")
-		(effects
-			(font
-				(size 5.870956 5.870956)
-				(thickness 0.580644)
-			)
-			(justify left)
-		)
-	)
 	(gr_text "I2C Addresses:\nMCP23017 - 0x21\nPCA9685 - 0x42"
 		(at 113 114 0)
 		(layer "F.SilkS")
