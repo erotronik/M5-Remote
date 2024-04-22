@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "M5-Remote_v1:PEL12T4225SS1024"
-			(at -1.27 14.224 0)
+			(at -2.286 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
