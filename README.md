@@ -6,7 +6,7 @@ Also note that this is an early prototype that is not tested.
 
 This modified project adds RGB Rotary encoders that can light the knobs, and allows the installation of an LED in the push-button.
 
-Furthermore, communication with the board is switched to I2C, using a PWM controller for the LEDs and a port expander for the Rotary encoders. Note that this means that this modification is *not compatible* with the software written for the original OSSM M5 Remote. Currently, there only is a skeleton project [that sketches how to interface with the components on the board](https://github.com/shiny-mira/m5-controller-src).
+Furthermore, communication with the board is switched to I2C, using a PWM controller for the LEDs and a port expander for the Rotary encoders. Note that this means that this modification is *not compatible* with the software written for the original OSSM M5 Remote. Currently, there only is a skeleton project [that sketches how to interface with the components on the board in the Firmware folder](./Firmware).
 
 The modified PCB design can be found in the `Hardware/PCB` folder.
 
