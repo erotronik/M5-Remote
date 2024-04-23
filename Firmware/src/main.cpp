@@ -153,7 +153,7 @@ void handlemcpinterrupt() {
 
   // check for rotary encoder change
   for (int i=0; i < numencoders; i++) {
-     rotaryEncoders[i].feedInput(data^65535);
+     rotaryEncoders[i].feedInput(data);
   }
   // check for button change
   unsigned long now = millis();
@@ -168,6 +168,7 @@ void handlemcpinterrupt() {
       }
     }
   }
+  mcp.clearInterrupts();
 }
 
 void rotaryReaderTask(void* pArgs) {
@@ -201,7 +202,7 @@ void handlerotaryencoders() {
 
 void setleds() {
   for (int i=0; i<4; i++) {
-    showanalogrgb(i+1, CHSV(buttonhue[i],255,255));  
+    showanalogrgb(i+1, CHSV(buttonhue[i],255,255)); // rotary LED
     buttonhue[i]++;
   }
   showanalogrgb(5, CHSV(255,255,buttonhue[4]/2)); // cherry LED (very bright)
