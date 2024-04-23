@@ -5,7 +5,7 @@
 #include "PCA9685.h"
 #include <atomic>
 #include <FastLED.h>
-#include <Rotary.h>
+#include "Rotary.h"
 #include "RotaryEncOverMCP.h"
 
 void printf_log(const char *format, ...);
@@ -24,15 +24,19 @@ constexpr uint8_t INTB = 7;
 const byte buttonpins[] = {10, 13, 5, 0, 14};
 const byte numbuttons = sizeof(buttonpins);
 
+// semaphore that will be used for reading of the rotary encoder 
+SemaphoreHandle_t rotaryISRSemaphore = nullptr;
+void rotaryReaderTask(void* pArgs);
+
 void RotaryEncoderChanged(bool clockwise, int id);
 
 RotaryEncOverMCP rotaryEncoders[] = {
   RotaryEncOverMCP(&mcp, 9, 8, &RotaryEncoderChanged, 0),
-  //RotaryEncOverMCP(&mcp, 11,12, &RotaryEncoderChanged, 1),
-  //RotaryEncOverMCP(&mcp, 4, 3, &RotaryEncoderChanged, 2),
-  //RotaryEncOverMCP(&mcp, 1, 2, &RotaryEncoderChanged, 3)
+  RotaryEncOverMCP(&mcp, 11,12, &RotaryEncoderChanged, 1),
+  RotaryEncOverMCP(&mcp, 4, 3, &RotaryEncoderChanged, 2),
+  RotaryEncOverMCP(&mcp, 1, 2, &RotaryEncoderChanged, 3)
 };
-const byte numencoders = 1;
+const byte numencoders = 4;
 
 byte buttonhue[] = {0, 64, 128, 192, 0};
 volatile bool buttonpressedflags[numbuttons] = {false};
@@ -62,19 +66,23 @@ void showanalogrgb(byte sw, const CRGB& rgb) {
 std::atomic_bool int_triggered;
 
 void IRAM_ATTR intactive() {
-  int_triggered = true;
+  BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+  xSemaphoreGiveFromISR(rotaryISRSemaphore, &xHigherPriorityTaskWoken);
+  if(xHigherPriorityTaskWoken) {
+      portYIELD_FROM_ISR ();
+  } 
 }
 
 M5Canvas canvas(&CoreS3.Display);
 
-byte lastencodertest = 0;
-byte encodertest = 0;
+byte lastencodertest[numencoders] = {0};
+byte encodertest[numencoders] = {0};
 
 void RotaryEncoderChanged(bool clockwise, int id) {
   if (clockwise) {
-    encodertest++;
+    encodertest[id]++;
   } else {
-    encodertest--;
+    encodertest[id]--;
   }
 }
 
@@ -89,6 +97,9 @@ void setup() {
   canvas.setTextScroll(true);
   canvas.pushSprite(0,0);
   
+  //initialize semaphore for reader task
+  rotaryISRSemaphore = xSemaphoreCreateBinary();
+
   Wire.begin();
   int_triggered = false;
   pinMode(INTA, INPUT_PULLUP);
@@ -113,7 +124,7 @@ void setup() {
     while (1) {}
   }
 
-  mcp.setupInterrupts(true, true, HIGH);
+  mcp.setupInterrupts(false, true, HIGH);
 
   for ( byte i = 0; i <=15; ++i ) {
     if (i==0 || i== 5 || i ==10 || i ==13)
@@ -127,7 +138,9 @@ void setup() {
   for (byte i=0; i<numencoders; i++)
     rotaryEncoders[i].init();
  
+  xTaskCreate(&rotaryReaderTask, "rotary reader", 2048, NULL, 20, NULL);
   attachInterrupt(digitalPinToInterrupt(INTA), intactive, FALLING);
+  attachInterrupt(digitalPinToInterrupt(INTB), intactive, FALLING);
 
   Serial.printf("GPIO A 0: %d\n", mcp.readGPIOA()); // no interrupts unless you do a mcp.readGPIOA();
 
@@ -156,6 +169,16 @@ void handlemcpinterrupt() {
   //printf_log("int %x\n",data);
 }
 
+void rotaryReaderTask(void* pArgs) {
+  (void)pArgs;
+  Serial.println("Started rotary reader task.");
+  while(true) {
+    if(xSemaphoreTake(rotaryISRSemaphore, portMAX_DELAY) == pdPASS) {
+      handlemcpinterrupt();
+    }
+  }
+}
+
 void handlebuttonpushes() {
   for (int i=0; i< numbuttons; i++) {
     if (buttonpressedflags[i]) {
@@ -167,20 +190,13 @@ void handlebuttonpushes() {
   }
 }
 
-void checkmcpinterrupt() {
-  if ( int_triggered ) {
-    int_triggered = false;
-    handlemcpinterrupt();
-    mcp.clearInterrupts();
-  }
-}
-
 void loop() {
-  checkmcpinterrupt();
   handlebuttonpushes();
-  if (encodertest != lastencodertest) {
-    printf_log("Encoder 1 %d\n", encodertest);
-    lastencodertest = encodertest;
+  for (int i=0; i < numencoders; i++) {
+    if (encodertest[i] != lastencodertest[i]) {
+      printf_log("Encoder %d %d\n", i, encodertest[i]);
+      lastencodertest[i] = encodertest[i];
+    }
   }
  
   for (int i=0; i<4; i++) {
@@ -189,7 +205,7 @@ void loop() {
   }
   showanalogrgb(5, CHSV(255,255,buttonhue[4]/2)); // cherry LED (very bright)
   buttonhue[4]++;
-  delay (1);
+  delay (20);
 }
 
 void printf_log(const char *format, ...) {
