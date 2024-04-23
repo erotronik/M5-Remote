@@ -90,7 +90,7 @@ void setup() {
     while (1) {}
   }
 
-  mcp.setupInterrupts(false, true, HIGH);
+  mcp.setupInterrupts(true, true, HIGH);
 
   for ( byte i = 0; i <=15; ++i ) {
     if (i==0 || i== 5 || i ==10 || i ==13)
@@ -98,20 +98,17 @@ void setup() {
     else
       mcp.pinMode(i, INPUT_PULLUP);
   }
-
-
   for (byte pin=0;pin<16;pin++) 
     mcp.setupInterruptPin(pin, CHANGE);
  
   attachInterrupt(digitalPinToInterrupt(INTA), intactive, FALLING);
-  attachInterrupt(digitalPinToInterrupt(INTB), intactive, FALLING);
 
   Serial.printf("GPIO A 0: %d\n", mcp.readGPIOA()); // no interrupts unless you do a mcp.readGPIOA();
 
   printf_log("Setup complete\n");
 }
 
- void handlemcpinterrupt() {
+void handlemcpinterrupt() {
   auto data = mcp.getCapturedInterrupt();
   printf_log("int %x\n",data);
 
@@ -128,6 +125,9 @@ void setup() {
       }
     }
   }
+}
+
+void handlebuttonpushes() {
   for (int i=0; i< numbuttons; i++) {
     if (buttonpressedflags[i]) {
       printf_log("button %d %s\n", i, lastbuttonstates[i]?"push":"release");
@@ -148,6 +148,7 @@ void checkmcpinterrupt() {
 
 void loop() {
   checkmcpinterrupt();
+  handlebuttonpushes();
  
   for (int i=0; i<4; i++) {
     showanalogrgb(i+1, CHSV(buttonhue[i],255,255));  
@@ -159,7 +160,7 @@ void loop() {
 }
 
 void printf_log(const char *format, ...) {
-    char buf[256];
+    static char buf[256];
     va_list args;
     va_start(args, format);
     vsnprintf(buf, 255, format, args);
