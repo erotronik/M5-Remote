@@ -5,6 +5,8 @@
 #include "PCA9685.h"
 #include <atomic>
 #include <FastLED.h>
+#include <Rotary.h>
+#include "RotaryEncOverMCP.h"
 
 void printf_log(const char *format, ...);
 
@@ -21,6 +23,16 @@ constexpr uint8_t INTA = 6;
 constexpr uint8_t INTB = 7;
 const byte buttonpins[] = {10, 13, 5, 0, 14};
 const byte numbuttons = sizeof(buttonpins);
+
+void RotaryEncoderChanged(bool clockwise, int id);
+
+RotaryEncOverMCP rotaryEncoders[] = {
+  RotaryEncOverMCP(&mcp, 9, 8, &RotaryEncoderChanged, 0),
+  //RotaryEncOverMCP(&mcp, 11,12, &RotaryEncoderChanged, 1),
+  //RotaryEncOverMCP(&mcp, 4, 3, &RotaryEncoderChanged, 2),
+  //RotaryEncOverMCP(&mcp, 1, 2, &RotaryEncoderChanged, 3)
+};
+const byte numencoders = 1;
 
 byte buttonhue[] = {0, 64, 128, 192, 0};
 volatile bool buttonpressedflags[numbuttons] = {false};
@@ -41,7 +53,7 @@ void showanalogrgb(byte sw, const CRGB& rgb) {
   static byte pinstarts[] = {0,3,11,8, 6};
   byte base = pinstarts[sw-1];
   PCA.setPWM(base, rgb.r*16);
-  if (sw != 5) {
+  if (sw != 5) { // the cherry switch (5) is a single LED
     PCA.setPWM(base+1, rgb.g*16);
     PCA.setPWM(base+2, rgb.b*16);
   }
@@ -54,6 +66,17 @@ void IRAM_ATTR intactive() {
 }
 
 M5Canvas canvas(&CoreS3.Display);
+
+byte lastencodertest = 0;
+byte encodertest = 0;
+
+void RotaryEncoderChanged(bool clockwise, int id) {
+  if (clockwise) {
+    encodertest++;
+  } else {
+    encodertest--;
+  }
+}
 
 void setup() {
   auto cfg = M5.config();
@@ -100,6 +123,9 @@ void setup() {
   }
   for (byte pin=0;pin<16;pin++) 
     mcp.setupInterruptPin(pin, CHANGE);
+
+  for (byte i=0; i<numencoders; i++)
+    rotaryEncoders[i].init();
  
   attachInterrupt(digitalPinToInterrupt(INTA), intactive, FALLING);
 
@@ -110,8 +136,10 @@ void setup() {
 
 void handlemcpinterrupt() {
   auto data = mcp.getCapturedInterrupt();
-  printf_log("int %x\n",data);
 
+  for (int i=0; i < numencoders; i++) {
+     rotaryEncoders[i].feedInput(data^65535);
+  }
   // check for button change
   unsigned long now = millis();
   for (byte i=0; i< numbuttons; i++) {
@@ -125,6 +153,7 @@ void handlemcpinterrupt() {
       }
     }
   }
+  //printf_log("int %x\n",data);
 }
 
 void handlebuttonpushes() {
@@ -149,6 +178,10 @@ void checkmcpinterrupt() {
 void loop() {
   checkmcpinterrupt();
   handlebuttonpushes();
+  if (encodertest != lastencodertest) {
+    printf_log("Encoder 1 %d\n", encodertest);
+    lastencodertest = encodertest;
+  }
  
   for (int i=0; i<4; i++) {
     showanalogrgb(i+1, CHSV(buttonhue[i],255,255));  
@@ -156,7 +189,7 @@ void loop() {
   }
   showanalogrgb(5, CHSV(255,255,buttonhue[4]/2)); // cherry LED (very bright)
   buttonhue[4]++;
-  delay (20);
+  delay (1);
 }
 
 void printf_log(const char *format, ...) {
