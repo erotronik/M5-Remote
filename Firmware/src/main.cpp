@@ -83,7 +83,7 @@ void setup() {
     for (byte led = 0; led<15; led++)
       PCA.setPWM(led, 2048 - (i*64));
     delay(20);
-  }  // acts as a delay between setup
+  }  // acts as a delay between setup too
 
   if ( ! mcp.begin_I2C(0x21) ) {
     printf_log("No MCP23X17 found");
@@ -92,10 +92,13 @@ void setup() {
 
   mcp.setupInterrupts(false, true, HIGH);
 
-  for ( int i = 0; i <=15; ++i )
-    mcp.pinMode(i, INPUT_PULLUP);  // TODO
+  for ( byte i = 0; i <=15; ++i ) {
+    if (i==0 || i== 5 || i ==10 || i ==13)
+      mcp.pinMode(i, INPUT); 
+    else
+      mcp.pinMode(i, INPUT_PULLUP);
+  }
 
-  mcp.pinMode(2, INPUT);
 
   for (byte pin=0;pin<16;pin++) 
     mcp.setupInterruptPin(pin, CHANGE);
@@ -109,7 +112,6 @@ void setup() {
 }
 
 void loop() {
-  //static byte led = 0;
   if ( int_triggered ) {
     int_triggered = false;
     auto data = mcp.getCapturedInterrupt();
