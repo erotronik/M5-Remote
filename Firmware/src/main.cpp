@@ -9,8 +9,10 @@
 #include "RotaryEncOverMCP.h"
 
 void printf_log(const char *format, ...);
+void rotaryReaderTask(void* pArgs);
+void RotaryEncoderChanged(bool clockwise, int id);
 
-// MCP23017 is port expander on x021
+// MCP23017 is port expander on I2C x021 and INT on pin 6/7 (different if not CoreS3)
 //
 // b0 is sw1_rota b1 is sw1_rotb, b2 = sw1_button
 // b3 is sw2_rota b4 is sw2_rotb, b5 = sw2_button
@@ -24,11 +26,8 @@ constexpr uint8_t INTB = 7;
 const byte buttonpins[] = {10, 13, 5, 0, 14};
 const byte numbuttons = sizeof(buttonpins);
 
-// semaphore that will be used for reading of the rotary encoder 
+// semaphore for reading of the rotary encoder 
 SemaphoreHandle_t rotaryISRSemaphore = nullptr;
-void rotaryReaderTask(void* pArgs);
-
-void RotaryEncoderChanged(bool clockwise, int id);
 
 RotaryEncOverMCP rotaryEncoders[] = {
   RotaryEncOverMCP(&mcp, 9, 8, &RotaryEncoderChanged, 0),
@@ -53,17 +52,19 @@ static unsigned long lastbuttondebounce[numbuttons] = {0};
 
 PCA9685 PCA(0x42);
 
+// Switch number 1-4 (5 for cherry, single LED), and CRGB structure from FastLED
+
 void showanalogrgb(byte sw, const CRGB& rgb) { 
   static byte pinstarts[] = {0,3,11,8, 6};
   byte base = pinstarts[sw-1];
   PCA.setPWM(base, rgb.r*16);
-  if (sw != 5) { // the cherry switch (5) is a single LED
-    PCA.setPWM(base+1, rgb.g*16);
+  if (sw != 5) {
+    PCA.setPWM(base+1, rgb.g*16);  // FastLED is 8 bit, PCA is 12 bit
     PCA.setPWM(base+2, rgb.b*16);
   }
 }
 
-std::atomic_bool int_triggered;
+// Interrupt from MCP means a button or rotary encoder changed
 
 void IRAM_ATTR intactive() {
   BaseType_t xHigherPriorityTaskWoken = pdFALSE;
@@ -72,8 +73,6 @@ void IRAM_ATTR intactive() {
       portYIELD_FROM_ISR ();
   } 
 }
-
-M5Canvas canvas(&CoreS3.Display);
 
 byte lastencodertest[numencoders] = {0};
 byte encodertest[numencoders] = {0};
@@ -85,6 +84,8 @@ void RotaryEncoderChanged(bool clockwise, int id) {
     encodertest[id]--;
   }
 }
+
+M5Canvas canvas(&CoreS3.Display);
 
 void setup() {
   auto cfg = M5.config();
@@ -101,7 +102,7 @@ void setup() {
   rotaryISRSemaphore = xSemaphoreCreateBinary();
 
   Wire.begin();
-  int_triggered = false;
+
   pinMode(INTA, INPUT_PULLUP);
   pinMode(INTB, INPUT_PULLUP);
 
@@ -136,7 +137,7 @@ void setup() {
     mcp.setupInterruptPin(pin, CHANGE);
 
   for (byte i=0; i<numencoders; i++)
-    rotaryEncoders[i].init();
+    rotaryEncoders[i].init();  // currently a NOP
  
   xTaskCreate(&rotaryReaderTask, "rotary reader", 2048, NULL, 20, NULL);
   attachInterrupt(digitalPinToInterrupt(INTA), intactive, FALLING);
@@ -150,6 +151,7 @@ void setup() {
 void handlemcpinterrupt() {
   auto data = mcp.getCapturedInterrupt();
 
+  // check for rotary encoder change
   for (int i=0; i < numencoders; i++) {
      rotaryEncoders[i].feedInput(data^65535);
   }
@@ -166,12 +168,10 @@ void handlemcpinterrupt() {
       }
     }
   }
-  //printf_log("int %x\n",data);
 }
 
 void rotaryReaderTask(void* pArgs) {
   (void)pArgs;
-  Serial.println("Started rotary reader task.");
   while(true) {
     if(xSemaphoreTake(rotaryISRSemaphore, portMAX_DELAY) == pdPASS) {
       handlemcpinterrupt();
@@ -190,21 +190,28 @@ void handlebuttonpushes() {
   }
 }
 
-void loop() {
-  handlebuttonpushes();
+void handlerotaryencoders() {
   for (int i=0; i < numencoders; i++) {
     if (encodertest[i] != lastencodertest[i]) {
       printf_log("Encoder %d %d\n", i, encodertest[i]);
       lastencodertest[i] = encodertest[i];
     }
   }
- 
+}
+
+void setleds() {
   for (int i=0; i<4; i++) {
     showanalogrgb(i+1, CHSV(buttonhue[i],255,255));  
     buttonhue[i]++;
   }
   showanalogrgb(5, CHSV(255,255,buttonhue[4]/2)); // cherry LED (very bright)
   buttonhue[4]++;
+}
+
+void loop() {
+  handlebuttonpushes();
+  handlerotaryencoders();
+  setleds();
   delay (20);
 }
 
