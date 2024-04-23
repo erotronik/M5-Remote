@@ -111,34 +111,44 @@ void setup() {
   printf_log("Setup complete\n");
 }
 
-void loop() {
-  if ( int_triggered ) {
-    int_triggered = false;
-    auto data = mcp.getCapturedInterrupt();
-    printf_log("int %x\n",data);
-    mcp.clearInterrupts();
+ void handlemcpinterrupt() {
+  auto data = mcp.getCapturedInterrupt();
+  printf_log("int %x\n",data);
 
-    unsigned long now = millis();
-    for (byte i=0; i< numbuttons; i++) {
-      if (now - lastbuttondebounce[i] > 50) { // debounce time
-        byte result = (data & (1 << buttonpins[i])) >> buttonpins[i];
-        if (buttonpins[i] == 14) result = !result; // cherry is inverted
-        if (result != lastbuttonstates[i]) {
-          buttonpressedflags[i] = true;
-          lastbuttonstates[i] = result;
-          lastbuttondebounce[i] = now;
-        }
-      }
-    }
-
-    for (int i=0; i< numbuttons; i++) {
-      if (buttonpressedflags[i]) {
-        printf_log("button %d %s\n", i, lastbuttonstates[i]?"push":"release");
-        buttonpressedflags[i] = false;
-        if (lastbuttonstates[i]) buttonhue[i] = 0;
+  // check for button change
+  unsigned long now = millis();
+  for (byte i=0; i< numbuttons; i++) {
+    if (now - lastbuttondebounce[i] > 50) { // debounce time
+      byte result = (data & (1 << buttonpins[i])) >> buttonpins[i];
+      if (buttonpins[i] == 14) result = !result; // cherry is inverted
+      if (result != lastbuttonstates[i]) {
+        buttonpressedflags[i] = true;
+        lastbuttonstates[i] = result;
+        lastbuttondebounce[i] = now;
       }
     }
   }
+  for (int i=0; i< numbuttons; i++) {
+    if (buttonpressedflags[i]) {
+      printf_log("button %d %s\n", i, lastbuttonstates[i]?"push":"release");
+      buttonpressedflags[i] = false;
+      if (lastbuttonstates[i]) 
+        buttonhue[i] = 0;
+    }
+  }
+}
+
+void checkmcpinterrupt() {
+  if ( int_triggered ) {
+    int_triggered = false;
+    handlemcpinterrupt();
+    mcp.clearInterrupts();
+  }
+}
+
+void loop() {
+  checkmcpinterrupt();
+ 
   for (int i=0; i<4; i++) {
     showanalogrgb(i+1, CHSV(buttonhue[i],255,255));  
     buttonhue[i]++;
