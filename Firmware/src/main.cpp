@@ -100,7 +100,7 @@ void setup() {
   titlecanvas.setTextColor(WHITE,BLUE);
   titlecanvas.setTextSize(2);
   titlecanvas.fillSprite(BLUE);
-  titlecanvas.println("M5 Remote Tester");
+  titlecanvas.println("M5 Remote Test");
   titlecanvas.pushSprite(0,0);
   canvasy = titlecanvas.fontHeight()*2;
 
@@ -172,8 +172,8 @@ void handlemcpinterrupt() {
   // check for button change
   unsigned long now = millis();
   for (byte i=0; i< numbuttons; i++) {
-    if (now - lastbuttondebounce[i] > 50) { // debounce time
-      byte result = (data & (1 << buttonpins[i])) >> buttonpins[i];
+    if (now - lastbuttondebounce[i] > 10) { // debounce time
+      byte result = (data >> buttonpins[i]) &1;
       if (buttonpins[i] == 14) result = !result; // cherry is inverted
       if (result != lastbuttonstates[i]) {
         buttonpressedflags[i] = true;
